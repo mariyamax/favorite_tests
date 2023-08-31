@@ -1,3 +1,6 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
 # Compiled class file
 *.class
 
@@ -19,6 +22,27 @@
 *.tar.gz
 *.rar
 
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+/codeStyles/
+
+.idea/
+!.idea/icon*.png
+*.iml
+*.xml
+!favorite_test/pom.xml
+!favorite_test/Suit.xml
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
