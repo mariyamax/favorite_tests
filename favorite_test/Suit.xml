@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FavoriteSuit" thread-count="1">
+    <parameter name="favoriteProductsAmount" value="1"/>
+    <test name="FunctionTest">
+        <parameter name="selectedProductId" value="2639542363"/>
+        <parameter name="favoriteButtonTitle" value="В избранном"/>
+        <parameter name="dimension" value="900"/>
+        <classes>
+            <class name="tests.ProductPageTests">
+            </class>
+            <class name="tests.FavoritePageTests">
+            </class>
+        </classes>
+    </test>
+</suite>
